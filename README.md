@@ -1,3 +1,5 @@
 # test_kottans_pokedex
-
-##src --> https://github.com/fixerror/test_kottans_pokedex/tree/master/client/app
+###Folder
+####src   --> client/app/**
+####dev   --> dist.dev/**   (files are not minification)
+####prod  --> dist.prod/**  (files minification)
