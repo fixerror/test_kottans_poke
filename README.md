@@ -1,1 +1,1 @@
-# test_kottans_poke
+# test_kottans_pokedex
