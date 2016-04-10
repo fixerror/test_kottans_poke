@@ -1,8 +1,0 @@
-# Created by .ignore support plugin (hsz.mobi)
-/.idea
-/node_modules
-/bower_components
-/.idea/
-/server/node_modules
-/dist.prod/server/node_modules
-npm-debug.log.txt
