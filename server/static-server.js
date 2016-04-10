@@ -54,4 +54,3 @@ http.createServer(function(request, response) {
 cluster.on('online', function(worker){
     console.log("Worker "+ worker.id + ' has been started.');
 });
-/*console.log("Static file server running at\n  => http://localhost:" + port + "/\nCTRL + C to shutdown");*/
