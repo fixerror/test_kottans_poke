@@ -1,0 +1,53 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <img ng-src="http://pokeapi.co/media/img/{{abstrc.infos.national_id}}.png" style="width:100px;" alt="" class="center-block"/>
+        <h1 class="text-center">{{abstrc.infos.name}} #{{abstrc.infos.national_id}}</h1>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>
+                    TYPE
+                </th>
+                <th>
+                    {{abstrc.infos.types| uppercase}}
+                </th>
+            </tr>
+            <tr>
+                <th>ATTACK</th>
+                <th>{{abstrc.infos.attack | uppercase}}</th>
+            </tr>
+            <tr>
+                <th>DEFFENSE</th>
+                <th>{{abstrc.infos.defense | uppercase}}</th>
+            </tr>
+            <tr>
+                <th>HP</th>
+                <th>{{abstrc.infos.hp | uppercase }}</th>
+            </tr>
+            <tr>
+                <th>SP ATTACK</th>
+                <th>{{abstrc.infos.sp_atk | uppercase}}</th>
+            </tr>
+            <tr>
+                <th>SP DEFFENSE</th>
+                <th>{{abstrc.infos.sp_def | uppercase}}</th>
+            </tr>
+            <tr>
+                <th>SPEED</th>
+                <th>{{abstrc.infos.speed | uppercase}}</th>
+            </tr>
+            <tr>
+                <th>WEIGHT</th>
+                <th>{{abstrc.infos.weight | uppercase}}</th>
+            </tr>
+            <tr>
+                <th>TOTAL MOVES</th>
+                <th>{{abstrc.infos.moves | uppercase}}</th>
+            </tr>
+            </thead>
+
+        </table>
+    </div>
+</div>

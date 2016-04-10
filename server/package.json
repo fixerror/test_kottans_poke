@@ -1,0 +1,9 @@
+{
+  "name": "static-server",
+  "version": "0.0.1",
+  "dependencies":{
+    "cluster": "*",
+    "ncp": "*",
+    "node-native-zip": "*"
+  }
+}
